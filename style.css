@@ -1,0 +1,69 @@
+div.bar {
+  display: inline-block;
+  background-color: rgb(159, 75, 192);
+}
+
+.split {
+  height: 100%;
+  width: 50%;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.year-1900, .year-2000 {
+  height: 100%;
+}
+
+#heading {
+  text-align: center;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+.body {
+  font-family: sans-serif;
+}
+
+#top {
+  height: 12%;
+}
+
+.subtitle {
+  text-align: center;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+.another-container {
+  height: 90%;
+}
+
+body, html {
+  height: 100%;
+}
+
+.left-sidebar {
+  height: 100%;
+  width: 15%;
+  float: left;
+}
+
+.main-container {
+  height: 100%;
+  width: 85%;
+  float: right;
+}
+
+.mid-line, .nine-million-more, .six-million-more, .three-million-more, .three-million-less {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  height: 1px;
+  background-color: black;
+  border:none;
+}
